@@ -35,11 +35,14 @@ function App() {
     </div>
     </div>
     <div className="footer">
-      <h3>Github repo <AiFillGithub 
-      style={{color:"#000000",fontSize:"35px",cursor:"pointer"}}/></h3>
-      <h3>Connect with me <AiOutlineTwitter
+     <a href="https://github.com/devAmlan/travel-suggest-app-mark9" 
+     target="_blank" rel="noreferrer"> <h3>Github repo <AiFillGithub 
+      style={{color:"#000000",fontSize:"35px",cursor:"pointer"}}/></h3></a>
+    <a href="https://twitter.com/AmlanjyotiSaho5" target="_blank" rel="noreferrer">
+    <h3>Connect with me <AiOutlineTwitter
        style={{color:"#000000",fontSize:"35px",cursor:"pointer"}}
       /></h3>
+    </a>
     </div>
     </div>
   );
